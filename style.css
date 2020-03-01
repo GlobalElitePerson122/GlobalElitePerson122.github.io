@@ -160,12 +160,13 @@ body{
 }
 .lite-solid-btn:hover{
 	padding: 25px;
+	margin: 5px;
 	 
 }
 .middle{
 	height: 3px;
 	width: 100%;
-	background: 
+	min-width: 700px;
 }
 #box2-img{
 	width: 100%;
@@ -267,15 +268,10 @@ body{
 }
 #box5{
 	background-color: #19E5EB;
-	height:1000px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
 
-}
-#box5-cards{
-	top: 50%;
-	left: 50%;
-	position: absolute;
-	transform: translate(-50%,-50%);
-	width: 1020px;
 }
  .box5-card{
  	position: relative;
@@ -542,4 +538,11 @@ text-decoration: none;
 }
 .small img{
 	width: 100%;
+}
+@media(max-width: 1068px){
+	#box4-title{
+		width: 50%;
+
+		
+	}
 }
